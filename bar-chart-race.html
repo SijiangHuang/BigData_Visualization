@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+
+<!-- This work is the homework of course data visualization -->
+<!-- author: sijiang huang <hsj20@mails.tsinghua.edu.cn> -->
+<!-- some codes are borrowed from https://github.com/ytdec/bar-chart-race -->
+
+<head>
+  <meta charset="utf-8">
+  <!-- import d3.js locally -->
+  <script src="d3.min.js"></script>
+  <!-- style definition-->
+  <style>
+    text {
+      font-size: 24px;
+      font-family: Open Sans, sans-serif;
+    }
+
+    text.title {
+      font-size: 30px;
+      font-weight: 800;
+      fill: #660874;
+    }
+
+    text.subTitle {
+      font-weight: 500;
+      fill: #660874;
+    }
+
+    text.label {
+      font-weight: 600;
+      fill: #778899;
+    }
+
+    text.valueLabel {
+      font-weight: 600;
+      fill: #778899;
+    }
+
+    text.yearText {
+      font-size: 64px;
+      font-weight: 700;
+      opacity: 0.5;
+      fill: #660874;
+    }
+
+    .tick text {
+      fill: #778899;
+      font-size: 24px;
+      font-weight: 600;
+      opacity: 0.75;
+    }
+
+    .xAxis .tick:nth-child(2) text {
+      text-anchor: start;
+    }
+
+    .tick line {
+      shape-rendering: CrispEdges;
+      stroke: #dddddd;
+    }
+
+    .tick line.origin {
+      stroke: #aaaaaa;
+    }
+
+    path.domain {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- create svg -->
+  <svg width="1200" height="800"> </svg>
+  <script>
+    const margin = {
+      top: 100,
+      right: 100,
+      bottom: 100,
+      left: 100
+    };
+    // parameter definitions
+    var tickDuration = 500;
+    var height = 500;
+    var width = 1000;
+    var top_n = 10;
+    let barPadding = (height - (margin.bottom + margin.top)) / (top_n * 5);
+
+    // Title and auxiliary text
+    let title = d3.select("svg").append('text')
+      .attr('class', 'title')
+      .attr('x', 100)
+      .attr('y', 24)
+      .html('Top 10 categories of research articles in 2019');
+
+    let subTitle = d3.select("svg").append("text")
+      .attr("class", "subTitle")
+      .attr("x", 100)
+      .attr("y", 70)
+      .html("Num of articles");
+
+    // load data from csv file 
+    d3.csv('cs_date.csv').then(data => {
+      console.log(data)
+      const color = d3.scaleOrdinal()
+        .domain(data.map(d => d.category))
+        .range(d3.schemeSet2.concat(d3.schemeSet3));
+
+      // acquire the first and last year
+      let firstDate = d3.min(data, d => {
+        return Number(d.id);
+      })
+      let lastDate = d3.max(data, d => {
+        return Number(d.id);
+      })
+      console.log(data[firstDate].date, data[lastDate].date)
+      var date = firstDate
+
+      let dateSlice = data.filter(d => d.id == date)
+        .sort((a, b) => b.value - a.value)
+        .slice(0, top_n);
+      dateSlice.forEach((d, i) => d.rank = i);
+      console.log('yearSlice: ', dateSlice)
+
+      // x and y range
+      let x = d3.scaleLinear()
+        .domain([0, d3.max(dateSlice, d => Number(d.value))])
+        .range([margin.left, width - margin.right - 65]);
+
+      let y = d3.scaleLinear()
+        .domain([top_n, 0])
+        .range([height - margin.bottom, margin.top]);
+
+      // axis
+      let xAxis = d3.axisTop()
+        .scale(x)
+        .ticks(5)
+        .tickSize(-(height - margin.top - margin.bottom))
+        .tickFormat(d => d3.format(',')(d));
+
+      d3.select("svg").append('g')
+        .attr('class', 'axis xAxis')
+        .attr('transform', `translate(0, ${margin.top})`)
+        .call(xAxis)
+        .selectAll('.tick line')
+        .classed('origin', d => d == 0);
+
+      // static bar chart with 
+      d3.select("svg").selectAll('rect.bar')
+        .data(dateSlice, d => d.category)
+        .enter()
+        .append('rect')
+        .attr('class', 'bar')
+        .attr('x', x(0))
+        .attr('y', d => y(d.rank) + 5)
+        .attr('height', y(1) - y(0) - barPadding)
+        .attr('opacity', 0.6)
+        .style('fill', d => color(d.category))
+        .transition()
+        .duration(tickDuration)
+        .ease(d3.easeCubic)
+        .attr('width', d => x(d.value) - x(0))
+        .attr('opacity', 0.6)
+
+        // y label
+        d3.select("svg").selectAll('text.label')
+          .data(dateSlice, d => d.category)
+          .enter()
+          .append('text')
+          .attr('class', 'label')
+          .attr('x', x(0) - 10)
+          .attr('y', d => y(d.rank) + y(1) - y(0) - barPadding)
+          .style('text-anchor', 'end')
+          .attr('opacity', 1)
+          .html(d => d.category);
+
+        // value label
+        d3.select("svg").selectAll('text.valueLabel')
+          .data(dateSlice, d => d.category)
+          .enter()
+          .append('text')
+          .attr('class', 'valueLabel')
+          .attr('x', d => x(0))
+          .attr('y', d => y(d.rank) + y(1) - y(0) - barPadding)
+          .transition()
+          .duration(tickDuration)
+          .ease(d3.easeCubic)
+          .attr('opacity', 1)
+          .attr('x', d => x(d.value) + 5)
+          .tween("text", function (d) {
+            let i = d3.interpolate(d.last_value, d.value);
+            return function (t) {
+              this.textContent = d3.format(',d')(i(t));
+            };
+          })
+
+        // print year in the bottom right corner
+        let dateText = d3.select("svg").append('text')
+          .attr('class', 'yearText')
+          .attr('x', width - margin.right - 50)
+          .attr('y', height)
+          .style('text-anchor', 'end')
+          .html(dateSlice[0].date)
+
+        // animation
+        let ticker = d3.interval(e => {
+
+          // acquire data from a specific year 
+          dateSlice = data.filter(d => d.id == date && !isNaN(d.value))
+            .sort((a, b) => b.value - a.value)
+            .slice(0, top_n);
+          dateSlice.forEach((d, i) => d.rank = i);
+          x.domain([0, d3.max(dateSlice, d => Number(d.value))]);
+
+          // bars
+          let bars = d3.select("svg").selectAll('.bar').data(dateSlice, d => d.category);
+          d3.select("svg").select('.xAxis')
+            .transition()
+            .duration(tickDuration)
+            .ease(d3.easeLinear)
+            .call(xAxis);
+
+          // new bars that are not in the last chart
+          bars
+            .enter()
+            .append('rect')
+            .attr('class', 'bar')
+            .attr('x', x(0) + 1)
+            .attr('width', d => x(d.value) - x(0))
+            .attr('y', d => y(d.rank) + 5)
+            .attr('height', y(1) - y(0) - barPadding)
+            .style('fill', d => color(d.category))
+            .attr('opacity', 0.6)
+            .transition()
+            .duration(tickDuration)
+            .ease(d3.easeLinear)
+            .attr('y', d => y(d.rank) + 5);
+
+          // bars that appears in the last chart (possible positional and numerical changes)
+          bars
+            .transition()
+            .duration(tickDuration)
+            .ease(d3.easeLinear)
+            .attr("opacity", 0.6)
+            .attr('width', d => x(d.value) - x(0))
+            .attr('y', d => y(d.rank) + 5);
+
+          // bars that are in the last chart yet pushed out from top-10 in this year's chart
+          bars
+            .exit()
+            .transition()
+            .duration(tickDuration)
+            .ease(d3.easeLinear)
+            .attr('width', d => x(d.value) - x(0))
+            .attr('y', d => y(top_n + 1) + 5)
+            // set opacity to 0 to hide a bar, avoid using "remove"
+            .attr("opacity", 0);
+
+          // labels, similar to bars above   
+          let labels = d3.select("svg").selectAll('.label')
+            .data(dateSlice, d => d.category)
+
+          labels
+            .enter()
+            .append('text')
+            .attr('class', 'label')
+            .attr('x', x(0) - 10)
+            .attr('y', d => y(d.rank) + y(1) - y(0) - barPadding)
+            .style('text-anchor', 'end')
+            .html(d => d.category)
+            .transition()
+            .duration(tickDuration)
+            .ease(d3.easeLinear)
+            .attr("opacity", 1)
+            .attr('y', d => y(d.rank) + y(1) - y(0) - barPadding)
+
+          labels
+            .transition()
+            .duration(tickDuration)
+            .ease(d3.easeLinear)
+            .attr("opacity", 1)
+            .attr('x', x(0) - 10)
+            .attr('y', d => y(d.rank) + y(1) - y(0) - barPadding)
+
+          labels
+            .exit()
+            .transition()
+            .duration(tickDuration)
+            .ease(d3.easeLinear)
+            .attr('x', x(0) - 10)
+            .attr('y', d => y(top_n + 1) + 5)
+            .attr("opacity", 0);
+
+          // value labels, similar to bars and labels above   
+          let valueLabels = d3.select("svg").selectAll('.valueLabel').
+          data(dateSlice, d => d.category);
+
+          valueLabels
+            .enter()
+            .append('text')
+            .attr('class', 'valueLabel')
+            .attr('x', d => x(d.value) + 5)
+            .attr('y', d => y(d.rank) + y(1) - y(0) - barPadding)
+            .text(d => d3.format(',d')(d.value))
+            .transition()
+            .duration(tickDuration)
+            .ease(d3.easeLinear)
+            .attr("opacity", 1)
+            .attr('y', d => y(d.rank) + y(1) - y(0) - barPadding)
+
+
+          valueLabels
+            .transition()
+            .duration(tickDuration)
+            .ease(d3.easeLinear)
+            .attr("opacity", 1)
+            .attr('x', d => x(d.value) + 5)
+            .attr('y', d => y(d.rank) + y(1) - y(0) - barPadding)
+            .tween("text", function (d) {
+              let i = d3.interpolate(d.last_value, d.value);
+              return function (t) {
+                this.textContent = d3.format(',d')(i(t));
+              };
+            });
+
+          valueLabels
+            .exit()
+            .transition()
+            .duration(tickDuration)
+            .ease(d3.easeLinear)
+            .attr('x', d => x(d.value) + 5)
+            .attr('y', height - 100)
+            .attr("opacity", 0);
+
+          // change the year test
+          dateText.html(dateSlice[0].date);
+          // set the break condition
+          if (date == lastDate) ticker.stop();
+          // proceed to next year
+          date += 1;
+
+          // execute the above codes for every tickDuration 
+        }, tickDuration);
+    });
+  </script>
+
+</body>

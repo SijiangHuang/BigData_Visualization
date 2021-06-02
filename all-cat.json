@@ -1,0 +1,628 @@
+{
+    "name": "flare",
+    "children": [{
+            "name": "astro-ph",
+            "children": [{
+                    "name": "CO",
+                    "value": 1924
+                },
+                {
+                    "name": "EP",
+                    "value": 1730
+                },
+                {
+                    "name": "GA",
+                    "value": 3557
+                },
+                {
+                    "name": "HE",
+                    "value": 3583
+                },
+                {
+                    "name": "IM",
+                    "value": 1846
+                },
+                {
+                    "name": "SR",
+                    "value": 2620
+                },
+                {
+                    "name": "astro-ph",
+                    "value": 696
+                }
+            ]
+        },
+        {
+            "name": "chao-dyn",
+            "value": 14
+        },
+        {
+            "name": "cond-mat",
+            "children": [{
+                    "name": "dis-nn",
+                    "value": 436
+                },
+                {
+                    "name": "mes-hall",
+                    "value": 3770
+                },
+                {
+                    "name": "mtrl-sci",
+                    "value": 3349
+                },
+                {
+                    "name": "other",
+                    "value": 94
+                },
+                {
+                    "name": "others",
+                    "value": 60
+                },
+                {
+                    "name": "quant-gas",
+                    "value": 892
+                },
+                {
+                    "name": "soft",
+                    "value": 1528
+                },
+                {
+                    "name": "stat-mech",
+                    "value": 1625
+                },
+                {
+                    "name": "str-el",
+                    "value": 2524
+                },
+                {
+                    "name": "supr-con",
+                    "value": 1220
+                }
+            ]
+        },
+        {
+            "name": "cs",
+            "children": [{
+                    "name": "AI",
+                    "value": 1289
+                },
+                {
+                    "name": "AR",
+                    "value": 135
+                },
+                {
+                    "name": "CC",
+                    "value": 364
+                },
+                {
+                    "name": "CE",
+                    "value": 241
+                },
+                {
+                    "name": "CG",
+                    "value": 341
+                },
+                {
+                    "name": "CL",
+                    "value": 3983
+                },
+                {
+                    "name": "CR",
+                    "value": 1922
+                },
+                {
+                    "name": "CV",
+                    "value": 8460
+                },
+                {
+                    "name": "CY",
+                    "value": 774
+                },
+                {
+                    "name": "DB",
+                    "value": 468
+                },
+                {
+                    "name": "DC",
+                    "value": 1286
+                },
+                {
+                    "name": "DL",
+                    "value": 235
+                },
+                {
+                    "name": "DM",
+                    "value": 382
+                },
+                {
+                    "name": "DS",
+                    "value": 1380
+                },
+                {
+                    "name": "ET",
+                    "value": 224
+                },
+                {
+                    "name": "FL",
+                    "value": 268
+                },
+                {
+                    "name": "GL",
+                    "value": 11
+                },
+                {
+                    "name": "GR",
+                    "value": 247
+                },
+                {
+                    "name": "GT",
+                    "value": 577
+                },
+                {
+                    "name": "HC",
+                    "value": 829
+                },
+                {
+                    "name": "IR",
+                    "value": 862
+                },
+                {
+                    "name": "IT",
+                    "value": 2467
+                },
+                {
+                    "name": "LG",
+                    "value": 7922
+                },
+                {
+                    "name": "LO",
+                    "value": 887
+                },
+                {
+                    "name": "MA",
+                    "value": 263
+                },
+                {
+                    "name": "MM",
+                    "value": 190
+                },
+                {
+                    "name": "MS",
+                    "value": 81
+                },
+                {
+                    "name": "NA",
+                    "value": 100
+                },
+                {
+                    "name": "NE",
+                    "value": 640
+                },
+                {
+                    "name": "NI",
+                    "value": 1353
+                },
+                {
+                    "name": "OH",
+                    "value": 113
+                },
+                {
+                    "name": "OS",
+                    "value": 54
+                },
+                {
+                    "name": "PF",
+                    "value": 117
+                },
+                {
+                    "name": "PL",
+                    "value": 444
+                },
+                {
+                    "name": "RO",
+                    "value": 1764
+                },
+                {
+                    "name": "SC",
+                    "value": 83
+                },
+                {
+                    "name": "SD",
+                    "value": 419
+                },
+                {
+                    "name": "SE",
+                    "value": 913
+                },
+                {
+                    "name": "SI",
+                    "value": 949
+                },
+                {
+                    "name": "SY",
+                    "value": 700
+                }
+            ]
+        },
+        {
+            "name": "econ",
+            "children": [{
+                    "name": "EM",
+                    "value": 242
+                },
+                {
+                    "name": "GN",
+                    "value": 212
+                },
+                {
+                    "name": "TH",
+                    "value": 103
+                }
+            ]
+        },
+        {
+            "name": "eess",
+            "children": [{
+                    "name": "AS",
+                    "value": 483
+                },
+                {
+                    "name": "IV",
+                    "value": 1337
+                },
+                {
+                    "name": "SP",
+                    "value": 2128
+                },
+                {
+                    "name": "SY",
+                    "value": 739
+                }
+            ]
+        },
+        {
+            "name": "gr-qc",
+            "value": 3185
+        },
+        {
+            "name": "hep-ex",
+            "value": 3131
+        },
+        {
+            "name": "hep-lat",
+            "value": 688
+        },
+        {
+            "name": "hep-ph",
+            "value": 4782
+        },
+        {
+            "name": "hep-th",
+            "value": 3912
+        },
+        {
+            "name": "math",
+            "children": [{
+                    "name": "AC",
+                    "value": 644
+                },
+                {
+                    "name": "AG",
+                    "value": 2993
+                },
+                {
+                    "name": "AP",
+                    "value": 4051
+                },
+                {
+                    "name": "AT",
+                    "value": 747
+                },
+                {
+                    "name": "CA",
+                    "value": 1259
+                },
+                {
+                    "name": "CO",
+                    "value": 3834
+                },
+                {
+                    "name": "CT",
+                    "value": 306
+                },
+                {
+                    "name": "CV",
+                    "value": 795
+                },
+                {
+                    "name": "DG",
+                    "value": 2215
+                },
+                {
+                    "name": "DS",
+                    "value": 1910
+                },
+                {
+                    "name": "FA",
+                    "value": 1637
+                },
+                {
+                    "name": "GM",
+                    "value": 298
+                },
+                {
+                    "name": "GN",
+                    "value": 267
+                },
+                {
+                    "name": "GR",
+                    "value": 1094
+                },
+                {
+                    "name": "GT",
+                    "value": 1181
+                },
+                {
+                    "name": "HO",
+                    "value": 233
+                },
+                {
+                    "name": "KT",
+                    "value": 196
+                },
+                {
+                    "name": "LO",
+                    "value": 879
+                },
+                {
+                    "name": "MG",
+                    "value": 516
+                },
+                {
+                    "name": "NA",
+                    "value": 2512
+                },
+                {
+                    "name": "NT",
+                    "value": 2803
+                },
+                {
+                    "name": "OA",
+                    "value": 585
+                },
+                {
+                    "name": "OC",
+                    "value": 2920
+                },
+                {
+                    "name": "PR",
+                    "value": 3106
+                },
+                {
+                    "name": "QA",
+                    "value": 464
+                },
+                {
+                    "name": "RA",
+                    "value": 845
+                },
+                {
+                    "name": "RT",
+                    "value": 1247
+                },
+                {
+                    "name": "SG",
+                    "value": 391
+                },
+                {
+                    "name": "SP",
+                    "value": 336
+                },
+                {
+                    "name": "ST",
+                    "value": 1214
+                }
+            ]
+        },
+        {
+            "name": "math-ph",
+            "value": 1809
+        },
+        {
+            "name": "nlin",
+            "children": [{
+                    "name": "AO",
+                    "value": 175
+                },
+                {
+                    "name": "CD",
+                    "value": 213
+                },
+                {
+                    "name": "CG",
+                    "value": 16
+                },
+                {
+                    "name": "PS",
+                    "value": 224
+                },
+                {
+                    "name": "SI",
+                    "value": 249
+                }
+            ]
+        },
+        {
+            "name": "nucl-ex",
+            "value": 1604
+        },
+        {
+            "name": "nucl-th",
+            "value": 1356
+        },
+        {
+            "name": "physics",
+            "children": [{
+                    "name": "acc-ph",
+                    "value": 328
+                },
+                {
+                    "name": "ao-ph",
+                    "value": 259
+                },
+                {
+                    "name": "app-ph",
+                    "value": 1678
+                },
+                {
+                    "name": "atm-clus",
+                    "value": 62
+                },
+                {
+                    "name": "atom-ph",
+                    "value": 741
+                },
+                {
+                    "name": "bio-ph",
+                    "value": 399
+                },
+                {
+                    "name": "chem-ph",
+                    "value": 869
+                },
+                {
+                    "name": "class-ph",
+                    "value": 335
+                },
+                {
+                    "name": "comp-ph",
+                    "value": 887
+                },
+                {
+                    "name": "data-an",
+                    "value": 151
+                },
+                {
+                    "name": "ed-ph",
+                    "value": 172
+                },
+                {
+                    "name": "flu-dyn",
+                    "value": 1275
+                },
+                {
+                    "name": "gen-ph",
+                    "value": 492
+                },
+                {
+                    "name": "geo-ph",
+                    "value": 304
+                },
+                {
+                    "name": "hist-ph",
+                    "value": 210
+                },
+                {
+                    "name": "ins-det",
+                    "value": 1386
+                },
+                {
+                    "name": "med-ph",
+                    "value": 440
+                },
+                {
+                    "name": "optics",
+                    "value": 1904
+                },
+                {
+                    "name": "plasm-ph",
+                    "value": 724
+                },
+                {
+                    "name": "pop-ph",
+                    "value": 96
+                },
+                {
+                    "name": "soc-ph",
+                    "value": 778
+                },
+                {
+                    "name": "space-ph",
+                    "value": 202
+                }
+            ]
+        },
+        {
+            "name": "q-bio",
+            "children": [{
+                    "name": "BM",
+                    "value": 134
+                },
+                {
+                    "name": "CB",
+                    "value": 83
+                },
+                {
+                    "name": "GN",
+                    "value": 105
+                },
+                {
+                    "name": "MN",
+                    "value": 129
+                },
+                {
+                    "name": "NC",
+                    "value": 561
+                },
+                {
+                    "name": "OT",
+                    "value": 51
+                },
+                {
+                    "name": "PE",
+                    "value": 436
+                },
+                {
+                    "name": "QM",
+                    "value": 391
+                },
+                {
+                    "name": "SC",
+                    "value": 51
+                },
+                {
+                    "name": "TO",
+                    "value": 99
+                }
+            ]
+        },
+        {
+            "name": "quant-ph",
+            "value": 5847
+        },
+        {
+            "name": "stat",
+            "children": [{
+                    "name": "AP",
+                    "value": 948
+                },
+                {
+                    "name": "CO",
+                    "value": 379
+                },
+                {
+                    "name": "ME",
+                    "value": 1590
+                },
+                {
+                    "name": "ML",
+                    "value": 1860
+                },
+                {
+                    "name": "OT",
+                    "value": 75
+                }
+            ]
+        }
+    ]
+}
