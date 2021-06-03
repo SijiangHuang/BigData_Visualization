@@ -1,0 +1,1220 @@
+[
+    {
+        "imports": [
+            "cs.LG.Zhang Weinan ",
+            "cs.LG.Zhang Yu "
+        ],
+        "name": "cs.CL.Liu Ting "
+    },
+    {
+        "imports": [
+            "cs.CL.Han Jiawei ",
+            "cs.CV.Li Jia ",
+            "cs.DS.Chen Xi ",
+            "cs.CV.Tao Dacheng ",
+            "cs.CL.Liu Ting "
+        ],
+        "name": "cs.LG.Zhang Yu "
+    },
+    {
+        "imports": [
+            "cs.LG.Salakhutdinov Ruslan ",
+            "cs.CV.Parikh Devi ",
+            "cs.CL.Gao Jianfeng "
+        ],
+        "name": "cs.CV.Batra Dhruv "
+    },
+    {
+        "imports": [
+            "cs.CV.Batra Dhruv "
+        ],
+        "name": "cs.CV.Parikh Devi "
+    },
+    {
+        "imports": [
+            "cs.LG.Wang Jun ",
+            "cs.CL.Liu Ting "
+        ],
+        "name": "cs.LG.Zhang Weinan "
+    },
+    {
+        "imports": [
+            "cs.CL.Xu Peng ",
+            "cs.LG.Chen Jie ",
+            "cs.RO.Manocha Dinesh ",
+            "cs.LG.Liu Qi ",
+            "cs.LG.Zhang Weinan ",
+            "cs.CL.Yu Dong "
+        ],
+        "name": "cs.LG.Wang Jun "
+    },
+    {
+        "imports": [
+            "cs.CV.Zhang Jian ",
+            "cs.CV.Wang Meng ",
+            "cs.CV.Liu Wei ",
+            "cs.CV.Wang Hao ",
+            "cs.CV.Wang Zhangyang ",
+            "cs.CV.Davis Larry S ",
+            "cs.CL.Yu Zhou ",
+            "cs.CV.Zhang Chao ",
+            "cs.CV.Li Xuelong ",
+            "cs.LG.Zhang Yu "
+        ],
+        "name": "cs.CV.Tao Dacheng "
+    },
+    {
+        "imports": [
+            "cs.CV.Tian Qi ",
+            "cs.CV.Tao Dacheng "
+        ],
+        "name": "cs.CL.Yu Zhou "
+    },
+    {
+        "imports": [
+            "cs.CV.Li Wei ",
+            "cs.CV.Wang Wei ",
+            "cs.CV.Zhang Lei ",
+            "cs.CV.Shen Chunhua ",
+            "cs.CV.Wei Wei "
+        ],
+        "name": "cs.CV.Wang Peng "
+    },
+    {
+        "imports": [
+            "cs.LG.Li Yang ",
+            "cs.CV.Sebe Nicu ",
+            "cs.CV.Tang Hao ",
+            "cs.CV.Wang Peng ",
+            "cs.CV.Zhang Li "
+        ],
+        "name": "cs.CV.Wang Wei "
+    },
+    {
+        "imports": [
+            "cs.CV.Zhang Yan ",
+            "cs.IT.Saad Walid "
+        ],
+        "name": "cs.NI.Bennis Mehdi "
+    },
+    {
+        "imports": [
+            "cs.NI.Bennis Mehdi "
+        ],
+        "name": "cs.IT.Saad Walid "
+    },
+    {
+        "imports": [
+            "cs.CV.Chen Hao ",
+            "cs.CV.Yang Jian ",
+            "cs.CV.Shen Chunhua "
+        ],
+        "name": "cs.DC.Chen Yu "
+    },
+    {
+        "imports": [
+            "cs.CV.Liu Wei ",
+            "cs.DC.Chen Yu ",
+            "cs.CV.Wang Peng ",
+            "cs.CV.Liu Yu ",
+            "cs.CV.Chen Hao ",
+            "cs.CV.Cheng Ming-Ming ",
+            "cs.CV.Zhang Chi "
+        ],
+        "name": "cs.CV.Shen Chunhua "
+    },
+    {
+        "imports": [
+            "cs.CV.Li Chao ",
+            "cs.DC.Chen Yu ",
+            "cs.CV.Yang Jian ",
+            "cs.CV.Shen Chunhua ",
+            "cs.CV.Reid Ian "
+        ],
+        "name": "cs.CV.Chen Hao "
+    },
+    {
+        "imports": [
+            "cs.CV.Li Xiang ",
+            "cs.CV.Davis Larry S ",
+            "cs.LG.Zhang Tong ",
+            "cs.DC.Chen Yu ",
+            "cs.CV.Zhang Lei ",
+            "cs.LG.Li Jian ",
+            "cs.CV.Chen Hao "
+        ],
+        "name": "cs.CV.Yang Jian "
+    },
+    {
+        "imports": [
+            "cs.CV.Li Chao ",
+            "cs.CV.Zhang Yi ",
+            "cs.CV.Wang Peng ",
+            "cs.CL.Sun Xu "
+        ],
+        "name": "cs.CV.Li Wei "
+    },
+    {
+        "imports": [
+            "cs.CV.Li Wei ",
+            "cs.CV.Yuille Alan ",
+            "cs.CV.Zhang Lei ",
+            "cs.CV.Zhang Chao ",
+            "cs.CL.Sun Xu "
+        ],
+        "name": "cs.CV.Zhang Yi "
+    },
+    {
+        "imports": [
+            "cs.CV.Zhang Yi ",
+            "cs.CV.Li Wei ",
+            "cs.CL.Li Peng ",
+            "cs.IR.Lin Jimmy "
+        ],
+        "name": "cs.CL.Sun Xu "
+    },
+    {
+        "imports": [
+            "cs.LG.Wang Yue ",
+            "cs.CV.Yang Jian ",
+            "cs.CV.Ji Rongrong ",
+            "cs.CV.Liu Yong "
+        ],
+        "name": "cs.LG.Li Jian "
+    },
+    {
+        "imports": [
+            "cs.CV.Wang Zhangyang ",
+            "cs.LG.Li Jian ",
+            "cs.LG.Li Yang ",
+            "cs.LG.Yu Philip S "
+        ],
+        "name": "cs.LG.Wang Yue "
+    },
+    {
+        "imports": [
+            "cs.IT.Larsson Erik G "
+        ],
+        "name": "cs.IT.Bj\u00f6rnson Emil "
+    },
+    {
+        "imports": [
+            "cs.IT.Bj\u00f6rnson Emil "
+        ],
+        "name": "cs.IT.Larsson Erik G "
+    },
+    {
+        "imports": [
+            "cs.CV.Wang Meng ",
+            "cs.RO.Manocha Dinesh ",
+            "cs.CV.Yang Yi ",
+            "cs.LG.Yu Philip S ",
+            "cs.CL.Liu Tie-Yan ",
+            "cs.IT.Poor H Vincent "
+        ],
+        "name": "cs.LG.Chen Wei "
+    },
+    {
+        "imports": [
+            "cs.LG.Chen Wei ",
+            "cs.LG.Wang Jun "
+        ],
+        "name": "cs.RO.Manocha Dinesh "
+    },
+    {
+        "imports": [
+            "cs.LG.Chen Wei ",
+            "cs.LG.Wang Yue ",
+            "cs.CV.Li Jia "
+        ],
+        "name": "cs.LG.Yu Philip S "
+    },
+    {
+        "imports": [
+            "cs.CV.Liu Yong ",
+            "cs.CL.Gurevych Iryna ",
+            "cs.CV.Darrell Trevor ",
+            "cs.CV.Luo Jiebo ",
+            "cs.CV.Wang Lei ",
+            "cs.LG.Levine Sergey "
+        ],
+        "name": "cs.CV.Gao Yang "
+    },
+    {
+        "imports": [
+            "cs.LG.Abbeel Pieter ",
+            "cs.CV.Darrell Trevor ",
+            "cs.LG.Finn Chelsea ",
+            "cs.CV.Gao Yang ",
+            "cs.LG.Bengio Yoshua "
+        ],
+        "name": "cs.LG.Levine Sergey "
+    },
+    {
+        "imports": [
+            "cs.CV.Feng Jiashi ",
+            "cs.CV.Wang Xin ",
+            "cs.CV.Gao Yang ",
+            "cs.LG.Levine Sergey "
+        ],
+        "name": "cs.CV.Darrell Trevor "
+    },
+    {
+        "imports": [
+            "cs.CV.Zhang Wei ",
+            "cs.CV.Wang Hao ",
+            "cs.CV.Wang Dong ",
+            "cs.LG.Zhang Tong ",
+            "cs.CV.Tao Dacheng ",
+            "cs.CV.Shen Chunhua ",
+            "cs.CV.Yang Jie ",
+            "cs.CV.Reid Ian "
+        ],
+        "name": "cs.CV.Liu Wei "
+    },
+    {
+        "imports": [
+            "cs.CV.Wang Qi ",
+            "cs.CV.Liu Wei ",
+            "cs.CV.Li Xin ",
+            "cs.CV.Zhang Yan ",
+            "cs.LG.Carin Lawrence "
+        ],
+        "name": "cs.CV.Wang Dong "
+    },
+    {
+        "imports": [
+            "cs.LG.Finn Chelsea ",
+            "cs.LG.Levine Sergey ",
+            "cs.DS.Chen Xi "
+        ],
+        "name": "cs.LG.Abbeel Pieter "
+    },
+    {
+        "imports": [
+            "cs.CV.Zhang Wei ",
+            "cs.LG.Abbeel Pieter ",
+            "cs.CL.Gao Jianfeng ",
+            "cs.CL.Liu Yang ",
+            "cs.LG.Zhang Yu "
+        ],
+        "name": "cs.DS.Chen Xi "
+    },
+    {
+        "imports": [
+            "cs.LG.Ermon Stefano ",
+            "cs.LG.Levine Sergey ",
+            "cs.LG.Abbeel Pieter "
+        ],
+        "name": "cs.LG.Finn Chelsea "
+    },
+    {
+        "imports": [
+            "cs.LG.Precup Doina ",
+            "cs.LG.Tang Jian ",
+            "cs.LG.Levine Sergey "
+        ],
+        "name": "cs.LG.Bengio Yoshua "
+    },
+    {
+        "imports": [
+            "cs.CV.Li Jia ",
+            "cs.CL.Li Peng ",
+            "cs.CR.Zhu Quanyan ",
+            "cs.CL.Socher Richard ",
+            "cs.CL.Xiong Caiming "
+        ],
+        "name": "cs.IT.Zhang Rui "
+    },
+    {
+        "imports": [
+            "cs.IT.Zhang Rui "
+        ],
+        "name": "cs.CR.Zhu Quanyan "
+    },
+    {
+        "imports": [
+            "cs.CV.Li Chao ",
+            "cs.CV.Wang Yang ",
+            "cs.CV.Gao Yang ",
+            "cs.CV.Wang Meng "
+        ],
+        "name": "cs.CV.Wang Lei "
+    },
+    {
+        "imports": [
+            "cs.CV.Zhang Lei ",
+            "cs.CV.Lin Dahua ",
+            "cs.CV.Wang Zhangyang "
+        ],
+        "name": "cs.LG.Liu Ji "
+    },
+    {
+        "imports": [
+            "cs.LG.Liu Ji ",
+            "cs.LG.Wang Yue ",
+            "cs.CV.Tao Dacheng "
+        ],
+        "name": "cs.CV.Wang Zhangyang "
+    },
+    {
+        "imports": [
+            "cs.CV.Scaramuzza Davide "
+        ],
+        "name": "cs.DC.Benini Luca "
+    },
+    {
+        "imports": [
+            "cs.DC.Benini Luca "
+        ],
+        "name": "cs.CV.Scaramuzza Davide "
+    },
+    {
+        "imports": [
+            "cs.CV.Li Jie ",
+            "cs.CV.Tian Qi ",
+            "cs.CV.Luo Jiebo ",
+            "cs.CV.Liu Xin ",
+            "cs.LG.Li Jian ",
+            "cs.CV.Cheng Ming-Ming ",
+            "cs.CV.Shao Ling ",
+            "cs.CV.Li Xuelong "
+        ],
+        "name": "cs.CV.Ji Rongrong "
+    },
+    {
+        "imports": [
+            "cs.CV.Ji Rongrong "
+        ],
+        "name": "cs.CV.Liu Xin "
+    },
+    {
+        "imports": [
+            "cs.CL.Wang William Yang ",
+            "cs.CV.Davis Larry S ",
+            "cs.CV.Darrell Trevor ",
+            "cs.CV.Zhang Lei ",
+            "cs.CV.Feng Jiashi ",
+            "cs.LG.Carin Lawrence ",
+            "cs.CL.Gao Jianfeng "
+        ],
+        "name": "cs.CV.Wang Xin "
+    },
+    {
+        "imports": [
+            "cs.CV.Savarese Silvio "
+        ],
+        "name": "cs.CV.Fei-Fei Li "
+    },
+    {
+        "imports": [
+            "cs.CV.Fei-Fei Li "
+        ],
+        "name": "cs.CV.Savarese Silvio "
+    },
+    {
+        "imports": [
+            "cs.CV.Li Jie ",
+            "cs.CV.Yan Junjie ",
+            "cs.CV.Wang Xiaogang ",
+            "cs.CV.Zhang Chao ",
+            "cs.CV.Shen Chunhua ",
+            "cs.CV.Reid Ian "
+        ],
+        "name": "cs.CV.Liu Yu "
+    },
+    {
+        "imports": [
+            "cs.CV.Yan Junjie ",
+            "cs.LG.Chen Jie ",
+            "cs.CV.Liu Yu "
+        ],
+        "name": "cs.CV.Wang Xiaogang "
+    },
+    {
+        "imports": [
+            "cs.CV.Yang Jian ",
+            "cs.CV.Liu Wei "
+        ],
+        "name": "cs.LG.Zhang Tong "
+    },
+    {
+        "imports": [
+            "cs.CV.Wang Wei ",
+            "cs.CV.Sebe Nicu ",
+            "cs.LG.Wang Yanzhi "
+        ],
+        "name": "cs.CV.Tang Hao "
+    },
+    {
+        "imports": [
+            "cs.CV.Tang Hao ",
+            "cs.CV.Wang Wei ",
+            "cs.LG.Wang Yanzhi "
+        ],
+        "name": "cs.CV.Sebe Nicu "
+    },
+    {
+        "imports": [
+            "cs.LG.Chen Wei ",
+            "cs.CL.Qin Tao "
+        ],
+        "name": "cs.CL.Liu Tie-Yan "
+    },
+    {
+        "imports": [
+            "cs.CL.Liu Tie-Yan "
+        ],
+        "name": "cs.CL.Qin Tao "
+    },
+    {
+        "imports": [
+            "cs.LG.Liu Ji ",
+            "cs.CV.Ouyang Wanli ",
+            "cs.CV.Yan Junjie ",
+            "cs.CV.Loy Chen Change "
+        ],
+        "name": "cs.CV.Lin Dahua "
+    },
+    {
+        "imports": [
+            "cs.CV.Lin Dahua ",
+            "cs.CV.Yan Junjie ",
+            "cs.CV.Mei Tao ",
+            "cs.CV.Ouyang Wanli "
+        ],
+        "name": "cs.CV.Loy Chen Change "
+    },
+    {
+        "imports": [
+            "cs.CV.Lin Dahua ",
+            "cs.CV.Li Xiang ",
+            "cs.LG.Li Bo ",
+            "cs.CV.Wang Xiaogang ",
+            "cs.CV.Liu Yu ",
+            "cs.CV.Loy Chen Change "
+        ],
+        "name": "cs.CV.Yan Junjie "
+    },
+    {
+        "imports": [
+            "cs.CL.Yu Mo ",
+            "cs.CV.Wang Xiaogang ",
+            "cs.LG.Wang Jun ",
+            "cs.CV.Ouyang Wanli ",
+            "cs.CL.Yu Dong "
+        ],
+        "name": "cs.LG.Chen Jie "
+    },
+    {
+        "imports": [
+            "cs.CV.Lin Dahua ",
+            "cs.CV.Li Xiang ",
+            "cs.LG.Chen Jie ",
+            "cs.CV.Loy Chen Change "
+        ],
+        "name": "cs.CV.Ouyang Wanli "
+    },
+    {
+        "imports": [
+            "cs.CV.Tian Qi ",
+            "cs.CV.Theobalt Christian "
+        ],
+        "name": "cs.IR.Chua Tat-Seng "
+    },
+    {
+        "imports": [
+            "cs.CV.Li Jie ",
+            "cs.CV.Zhang Jian ",
+            "cs.CV.Ji Rongrong ",
+            "cs.IR.Chua Tat-Seng ",
+            "cs.LG.Li Bo ",
+            "cs.CL.Yu Zhou "
+        ],
+        "name": "cs.CV.Tian Qi "
+    },
+    {
+        "imports": [
+            "cs.LG.Chen Wei ",
+            "cs.IT.Caire Giuseppe ",
+            "cs.IT.Schober Robert "
+        ],
+        "name": "cs.IT.Poor H Vincent "
+    },
+    {
+        "imports": [
+            "cs.IT.Poor H Vincent ",
+            "cs.IT.Caire Giuseppe "
+        ],
+        "name": "cs.IT.Schober Robert "
+    },
+    {
+        "imports": [
+            "cs.RO.Fox Dieter "
+        ],
+        "name": "cs.LG.Boots Byron "
+    },
+    {
+        "imports": [
+            "cs.LG.Boots Byron "
+        ],
+        "name": "cs.RO.Fox Dieter "
+    },
+    {
+        "imports": [
+            "cs.CV.Chen Hao ",
+            "cs.CV.Li Jie ",
+            "cs.CV.Liu Yu ",
+            "cs.CV.Liu Wei "
+        ],
+        "name": "cs.CV.Reid Ian "
+    },
+    {
+        "imports": [
+            "cs.CL.Han Jiawei ",
+            "cs.CV.Zhang Yi ",
+            "cs.CV.Liu Yu ",
+            "cs.CV.Tao Dacheng "
+        ],
+        "name": "cs.CV.Zhang Chao "
+    },
+    {
+        "imports": [
+            "cs.CV.Li Xiang ",
+            "cs.CV.Batra Dhruv ",
+            "cs.DS.Chen Xi ",
+            "cs.CV.Zhang Lei ",
+            "cs.CV.Zhang Zheng ",
+            "cs.CV.Wang Xin ",
+            "cs.LG.Carin Lawrence "
+        ],
+        "name": "cs.CL.Gao Jianfeng "
+    },
+    {
+        "imports": [
+            "cs.CV.Wang Xin ",
+            "cs.CL.Yu Mo "
+        ],
+        "name": "cs.CL.Wang William Yang "
+    },
+    {
+        "imports": [
+            "cs.LG.Liu Ji ",
+            "cs.CV.Shao Ling ",
+            "cs.CL.Sun Maosong ",
+            "cs.CV.Wang Peng ",
+            "cs.CV.Zhang Yi ",
+            "cs.CV.Wang Xin ",
+            "cs.CV.Wang Liang ",
+            "cs.CV.Yang Fan ",
+            "cs.CV.Yang Jian ",
+            "cs.CL.Gao Jianfeng ",
+            "cs.CL.Liu Zhiyuan ",
+            "cs.CV.Wei Wei "
+        ],
+        "name": "cs.CV.Zhang Lei "
+    },
+    {
+        "imports": [
+            "cs.IT.Zhang Rui ",
+            "cs.CL.Xiong Caiming ",
+            "cs.CV.Davis Larry S "
+        ],
+        "name": "cs.CL.Socher Richard "
+    },
+    {
+        "imports": [
+            "cs.CL.Socher Richard ",
+            "cs.IT.Zhang Rui ",
+            "cs.CV.Davis Larry S ",
+            "cs.CV.Li Jia "
+        ],
+        "name": "cs.CL.Xiong Caiming "
+    },
+    {
+        "imports": [
+            "cs.CV.Yang Jian ",
+            "cs.CV.Wang Xin ",
+            "cs.CV.Tao Dacheng ",
+            "cs.CL.Socher Richard ",
+            "cs.CL.Xiong Caiming "
+        ],
+        "name": "cs.CV.Davis Larry S "
+    },
+    {
+        "imports": [
+            "cs.CV.Ji Rongrong ",
+            "cs.CV.Tian Qi ",
+            "cs.CV.Li Xin ",
+            "cs.CV.Liu Yu ",
+            "cs.CV.Yang Fan ",
+            "cs.CV.Reid Ian "
+        ],
+        "name": "cs.CV.Li Jie "
+    },
+    {
+        "imports": [
+            "cs.LG.Yu Yang ",
+            "cs.CV.Darrell Trevor ",
+            "cs.CV.Wang Xin ",
+            "cs.CV.Li Xin ",
+            "cs.CV.Cheng Ming-Ming ",
+            "cs.CL.Liu Yang "
+        ],
+        "name": "cs.CV.Feng Jiashi "
+    },
+    {
+        "imports": [
+            "cs.CV.Wang Xin ",
+            "cs.CL.Gao Jianfeng ",
+            "cs.CV.Wang Dong "
+        ],
+        "name": "cs.LG.Carin Lawrence "
+    },
+    {
+        "imports": [
+            "cs.CV.Zhang Li "
+        ],
+        "name": "cs.CV.Torr Philip H S "
+    },
+    {
+        "imports": [
+            "cs.CV.Wang Wei ",
+            "cs.CV.Li Xiang ",
+            "cs.CV.Torr Philip H S "
+        ],
+        "name": "cs.CV.Zhang Li "
+    },
+    {
+        "imports": [
+            "cs.CV.Shen Chunhua ",
+            "cs.CV.Zhu Song-Chun "
+        ],
+        "name": "cs.CV.Zhang Chi "
+    },
+    {
+        "imports": [
+            "cs.CV.Zhang Chi "
+        ],
+        "name": "cs.CV.Zhu Song-Chun "
+    },
+    {
+        "imports": [
+            "cs.LG.Li Jian ",
+            "cs.CV.Gao Yang "
+        ],
+        "name": "cs.CV.Liu Yong "
+    },
+    {
+        "imports": [
+            "cs.CV.Li Chao ",
+            "cs.CL.Li Peng ",
+            "cs.CV.Zhang Lei ",
+            "cs.CL.Zhou Jie ",
+            "cs.CL.Liu Yang ",
+            "cs.CL.Sun Maosong "
+        ],
+        "name": "cs.CL.Liu Zhiyuan "
+    },
+    {
+        "imports": [
+            "cs.CL.Liu Yang ",
+            "cs.CL.Li Peng ",
+            "cs.CL.Liu Zhiyuan ",
+            "cs.CL.Sun Maosong "
+        ],
+        "name": "cs.CL.Zhou Jie "
+    },
+    {
+        "imports": [
+            "cs.CL.Li Peng ",
+            "cs.CV.Zhang Lei ",
+            "cs.CL.Zhou Jie ",
+            "cs.CL.Liu Yang ",
+            "cs.CL.Liu Zhiyuan "
+        ],
+        "name": "cs.CL.Sun Maosong "
+    },
+    {
+        "imports": [
+            "cs.IT.Poor H Vincent ",
+            "cs.IT.Schober Robert "
+        ],
+        "name": "cs.IT.Caire Giuseppe "
+    },
+    {
+        "imports": [
+            "cs.IR.Chua Tat-Seng "
+        ],
+        "name": "cs.CV.Theobalt Christian "
+    },
+    {
+        "imports": [
+            "cs.CV.Mei Tao ",
+            "cs.CV.Zhang Wei ",
+            "cs.LG.Yu Philip S ",
+            "cs.IT.Zhang Rui ",
+            "cs.CL.Xiong Caiming ",
+            "cs.LG.Zhang Yu "
+        ],
+        "name": "cs.CV.Li Jia "
+    },
+    {
+        "imports": [
+            "cs.CV.Zhang Lei ",
+            "cs.CV.Wang Yang ",
+            "cs.CV.Wang Meng ",
+            "cs.CV.Ji Rongrong "
+        ],
+        "name": "cs.CV.Shao Ling "
+    },
+    {
+        "imports": [
+            "cs.CV.Wang Lei ",
+            "cs.CV.Shao Ling ",
+            "cs.CV.Wang Meng ",
+            "cs.CV.Li Xiang "
+        ],
+        "name": "cs.CV.Wang Yang "
+    },
+    {
+        "imports": [
+            "cs.CV.Wang Yang ",
+            "cs.CV.Tao Dacheng ",
+            "cs.CV.Wang Lei ",
+            "cs.CV.Zhang Yan ",
+            "cs.LG.Chen Wei ",
+            "cs.CV.Shao Ling "
+        ],
+        "name": "cs.CV.Wang Meng "
+    },
+    {
+        "imports": [
+            "cs.CV.Zhang Chao ",
+            "cs.LG.Zhang Yu "
+        ],
+        "name": "cs.CL.Han Jiawei "
+    },
+    {
+        "imports": [
+            "cs.CV.Mei Tao ",
+            "cs.CV.Li Jia ",
+            "cs.CV.Liu Wei ",
+            "cs.CR.Guizani Mohsen ",
+            "cs.CR.Du Xiaojiang ",
+            "cs.DS.Chen Xi ",
+            "cs.CV.Wei Wei "
+        ],
+        "name": "cs.CV.Zhang Wei "
+    },
+    {
+        "imports": [
+            "cs.CV.Tian Qi ",
+            "cs.CV.Yan Junjie ",
+            "cs.CV.Wu Wei "
+        ],
+        "name": "cs.LG.Li Bo "
+    },
+    {
+        "imports": [
+            "cs.LG.Li Bo ",
+            "cs.CV.Li Xiang "
+        ],
+        "name": "cs.CV.Wu Wei "
+    },
+    {
+        "imports": [
+            "cs.LG.Wang Jun "
+        ],
+        "name": "cs.CL.Xu Peng "
+    },
+    {
+        "imports": [
+            "cs.CV.Yang Ming-Hsuan ",
+            "cs.CV.Li Jie ",
+            "cs.CV.Li Chao ",
+            "cs.CV.Wang Dong ",
+            "cs.CV.Feng Jiashi "
+        ],
+        "name": "cs.CV.Li Xin "
+    },
+    {
+        "imports": [
+            "cs.CV.Li Jie ",
+            "cs.LG.Hu Xia ",
+            "cs.CV.Li Chao ",
+            "cs.CV.Wang Hao ",
+            "cs.CV.Zhang Lei "
+        ],
+        "name": "cs.CV.Yang Fan "
+    },
+    {
+        "imports": [
+            "cs.CV.Yang Ming-Hsuan ",
+            "cs.CV.Ji Rongrong ",
+            "cs.CV.Li Chao ",
+            "cs.CV.Feng Jiashi ",
+            "cs.CV.Wang Liang ",
+            "cs.CV.Shen Chunhua "
+        ],
+        "name": "cs.CV.Cheng Ming-Ming "
+    },
+    {
+        "imports": [
+            "cs.CV.Zhang Lei ",
+            "cs.CV.Cheng Ming-Ming "
+        ],
+        "name": "cs.CV.Wang Liang "
+    },
+    {
+        "imports": [
+            "cs.IT.IEEE ",
+            "cs.CV.Wang Qi ",
+            "cs.CV.Ji Rongrong ",
+            "cs.CV.Tao Dacheng "
+        ],
+        "name": "cs.CV.Li Xuelong "
+    },
+    {
+        "imports": [
+            "cs.NI.Bennis Mehdi ",
+            "cs.CV.Wang Meng ",
+            "cs.CV.Wang Dong "
+        ],
+        "name": "cs.CV.Zhang Yan "
+    },
+    {
+        "imports": [
+            "cs.LG.Liu Qi ",
+            "cs.IR.Lin Jimmy "
+        ],
+        "name": "cs.CL.Cho Kyunghyun "
+    },
+    {
+        "imports": [
+            "cs.CV.Wang Hao ",
+            "cs.LG.Wang Jun ",
+            "cs.CL.Cho Kyunghyun ",
+            "cs.LG.Wang Yanzhi "
+        ],
+        "name": "cs.LG.Liu Qi "
+    },
+    {
+        "imports": [
+            "cs.CV.Zhang Jian ",
+            "cs.CV.Batra Dhruv "
+        ],
+        "name": "cs.LG.Salakhutdinov Ruslan "
+    },
+    {
+        "imports": [
+            "cs.CR.Guizani Mohsen ",
+            "cs.CV.Zhang Wei "
+        ],
+        "name": "cs.CR.Du Xiaojiang "
+    },
+    {
+        "imports": [
+            "cs.CR.Du Xiaojiang ",
+            "cs.CV.Zhang Wei "
+        ],
+        "name": "cs.CR.Guizani Mohsen "
+    },
+    {
+        "imports": [
+            "cs.LG.Yu Yang "
+        ],
+        "name": "cs.RO.Liu Ming "
+    },
+    {
+        "imports": [
+            "cs.CV.Feng Jiashi ",
+            "cs.RO.Liu Ming "
+        ],
+        "name": "cs.LG.Yu Yang "
+    },
+    {
+        "imports": [
+            "cs.CV.Zhang Wei ",
+            "cs.CV.Li Jia ",
+            "cs.CV.Loy Chen Change "
+        ],
+        "name": "cs.CV.Mei Tao "
+    },
+    {
+        "imports": [
+            "cs.CV.Li Wei ",
+            "cs.CV.Yang Fan ",
+            "cs.CV.Wang Lei ",
+            "cs.CV.Li Xin ",
+            "cs.CV.Chen Hao ",
+            "cs.CV.Cheng Ming-Ming ",
+            "cs.CL.Liu Zhiyuan "
+        ],
+        "name": "cs.CV.Li Chao "
+    },
+    {
+        "imports": [
+            "cs.CV.Yang Ming-Hsuan ",
+            "cs.CV.Yang Yi "
+        ],
+        "name": "cs.CV.Kautz Jan "
+    },
+    {
+        "imports": [
+            "cs.CV.Cheng Ming-Ming ",
+            "cs.CV.Kautz Jan ",
+            "cs.CV.Li Xin "
+        ],
+        "name": "cs.CV.Yang Ming-Hsuan "
+    },
+    {
+        "imports": [
+            "cs.LG.Li Yang "
+        ],
+        "name": "cs.CV.Harada Tatsuya "
+    },
+    {
+        "imports": [
+            "cs.LG.Hsieh Cho-Jui ",
+            "cs.CL.Wang Rui ",
+            "cs.CV.Harada Tatsuya ",
+            "cs.CV.Wang Wei ",
+            "cs.CV.Zhang Zheng ",
+            "cs.LG.Wang Yue "
+        ],
+        "name": "cs.LG.Li Yang "
+    },
+    {
+        "imports": [
+            "cs.CV.Yan Junjie ",
+            "cs.CV.Wang Yang ",
+            "cs.CV.Wu Wei ",
+            "cs.CV.Zhang Li ",
+            "cs.CV.Ouyang Wanli ",
+            "cs.CV.Yang Jian ",
+            "cs.CL.Gao Jianfeng "
+        ],
+        "name": "cs.CV.Li Xiang "
+    },
+    {
+        "imports": [
+            "cs.CV.Zhang Lei ",
+            "cs.CV.Wang Peng ",
+            "cs.CV.Zhang Wei "
+        ],
+        "name": "cs.CV.Wei Wei "
+    },
+    {
+        "imports": [
+            "cs.CV.Gao Yang "
+        ],
+        "name": "cs.CL.Gurevych Iryna "
+    },
+    {
+        "imports": [
+            "cs.CV.Gao Yang ",
+            "cs.CL.Liu Yang ",
+            "cs.CV.Ji Rongrong "
+        ],
+        "name": "cs.CV.Luo Jiebo "
+    },
+    {
+        "imports": [
+            "cs.LG.Chen Wei ",
+            "cs.CV.Kautz Jan "
+        ],
+        "name": "cs.CV.Yang Yi "
+    },
+    {
+        "imports": [
+            "cs.CL.Gao Jianfeng ",
+            "cs.LG.Li Yang "
+        ],
+        "name": "cs.CV.Zhang Zheng "
+    },
+    {
+        "imports": [
+            "cs.CV.Yang Fan ",
+            "cs.CV.Tao Dacheng ",
+            "cs.LG.Liu Qi ",
+            "cs.CV.Liu Wei "
+        ],
+        "name": "cs.CV.Wang Hao "
+    },
+    {
+        "imports": [
+            "cs.CV.Tang Hao ",
+            "cs.CV.Sebe Nicu ",
+            "cs.LG.Liu Qi "
+        ],
+        "name": "cs.LG.Wang Yanzhi "
+    },
+    {
+        "imports": [
+            "cs.CV.Tian Qi ",
+            "cs.LG.Salakhutdinov Ruslan ",
+            "cs.CV.Tao Dacheng "
+        ],
+        "name": "cs.CV.Zhang Jian "
+    },
+    {
+        "imports": [
+            "cs.CL.Zhang Yue ",
+            "cs.LG.Li Yang ",
+            "cs.CL.Zhao Hai "
+        ],
+        "name": "cs.CL.Wang Rui "
+    },
+    {
+        "imports": [
+            "cs.CL.Cho Kyunghyun ",
+            "cs.CL.Sun Xu "
+        ],
+        "name": "cs.IR.Lin Jimmy "
+    },
+    {
+        "imports": [
+            "cs.IT.IEEE ",
+            "cs.CV.Wang Dong ",
+            "cs.CV.Li Xuelong "
+        ],
+        "name": "cs.CV.Wang Qi "
+    },
+    {
+        "imports": [
+            "cs.CL.Zhang Yue ",
+            "cs.IT.Zhang Rui ",
+            "cs.CL.Zhou Jie ",
+            "cs.CL.Liu Zhiyuan ",
+            "cs.CL.Sun Xu ",
+            "cs.CL.Sun Maosong "
+        ],
+        "name": "cs.CL.Li Peng "
+    },
+    {
+        "imports": [
+            "cs.CL.Li Peng ",
+            "cs.CL.Wang Rui "
+        ],
+        "name": "cs.CL.Zhang Yue "
+    },
+    {
+        "imports": [
+            "cs.CL.Wang William Yang ",
+            "cs.LG.Chen Jie ",
+            "cs.LG.Wang Liwei "
+        ],
+        "name": "cs.CL.Yu Mo "
+    },
+    {
+        "imports": [
+            "cs.CV.Wang Qi ",
+            "cs.CV.Li Xuelong "
+        ],
+        "name": "cs.IT.IEEE "
+    },
+    {
+        "imports": [
+            "cs.LG.Wang Jun ",
+            "cs.LG.Chen Jie "
+        ],
+        "name": "cs.CL.Yu Dong "
+    },
+    {
+        "imports": [
+            "cs.CL.Yu Mo "
+        ],
+        "name": "cs.LG.Wang Liwei "
+    },
+    {
+        "imports": [
+            "cs.DS.Chen Xi ",
+            "cs.CR.Zhao Jun ",
+            "cs.CV.Luo Jiebo ",
+            "cs.CV.Feng Jiashi ",
+            "cs.CL.Zhou Jie ",
+            "cs.CL.Liu Zhiyuan ",
+            "cs.CL.Sun Maosong "
+        ],
+        "name": "cs.CL.Liu Yang "
+    },
+    {
+        "imports": [
+            "cs.LG.Bengio Yoshua "
+        ],
+        "name": "cs.LG.Tang Jian "
+    },
+    {
+        "imports": [
+            "cs.CV.Wong Alexander "
+        ],
+        "name": "cs.SE.Gren Lucas "
+    },
+    {
+        "imports": [
+            "cs.SE.Gren Lucas "
+        ],
+        "name": "cs.CV.Wong Alexander "
+    },
+    {
+        "imports": [
+            "cs.CV.Yang Fan "
+        ],
+        "name": "cs.LG.Hu Xia "
+    },
+    {
+        "imports": [
+            "cs.CV.Liu Wei "
+        ],
+        "name": "cs.CV.Yang Jie "
+    },
+    {
+        "imports": [
+            "cs.IT.Xu Wei "
+        ],
+        "name": "cs.IT.Alouini Mohamed-Slim "
+    },
+    {
+        "imports": [
+            "cs.IT.Alouini Mohamed-Slim "
+        ],
+        "name": "cs.IT.Xu Wei "
+    },
+    {
+        "imports": [
+            "cs.CL.Wang Rui "
+        ],
+        "name": "cs.CL.Zhao Hai "
+    },
+    {
+        "imports": [
+            "cs.LG.Finn Chelsea "
+        ],
+        "name": "cs.LG.Ermon Stefano "
+    },
+    {
+        "imports": [
+            "cs.LG.Bengio Yoshua "
+        ],
+        "name": "cs.LG.Precup Doina "
+    },
+    {
+        "imports": [
+            "cs.LG.Li Yang "
+        ],
+        "name": "cs.LG.Hsieh Cho-Jui "
+    },
+    {
+        "imports": [
+            "cs.CL.Liu Yang "
+        ],
+        "name": "cs.CR.Zhao Jun "
+    },
+    {
+        "imports": [
+            "cs.CV.Zhang Yi "
+        ],
+        "name": "cs.CV.Yuille Alan "
+    }
+]
